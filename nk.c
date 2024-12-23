@@ -1,3 +1,4 @@
+#include<stdio.h>
 int one(int x)
 {
     x = x + 8;
@@ -18,7 +19,7 @@ int three(int g, int h)
     float r;
     g = one(g);
     r = two(h);
-    printf("\n A = %d, B = %d, C = %f, D = %d", g, h, r, p);
+    printf("\n g = %d, g = %d, c = %f, f = %d", g, h, r, p);
     return (25);
 }
 
